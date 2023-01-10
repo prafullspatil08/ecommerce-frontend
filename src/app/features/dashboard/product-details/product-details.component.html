@@ -1,0 +1,33 @@
+<div class="container" style="padding-top: 100px">
+    <div class="row">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="{{ productData.image }}" alt="" />
+        </div>
+        <div class="col-md-6 mx-auto description">
+          <div class="pro-title">
+            <h3>{{ productData.product_name  }}</h3>
+          </div>
+          <div class="pro-price">
+            <strong> Price : {{ productData.price | currency: "INR" }}</strong>
+          </div>
+          <div class="pro-desc">
+            <p><b>Product Description:</b></p>
+            <p>{{ productData.product_description.textdescription}}</p>
+            <p>Weight: {{ productData.product_description.weight}}</p>
+            <p>Height: {{ productData.product_description.height}}</p>
+            <p>Type: {{ productData.product_description.material_type}}</p>
+          </div>
+          <div>
+            <button type="button" class="btn btn-shop btn-success">
+              <i  class="fas fa-shopping-cart" style="font-size: 20px"></i> Add to
+              Cart
+            </button>
+            <button type="button" class="btn btn-shop btn-success">
+              <i class="far fa-heart" style="font-size: 20px; margin:4px ;"></i>Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

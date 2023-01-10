@@ -1,0 +1,28 @@
+@import '/src/assets/color/colors.scss';
+
+.description{
+    margin-left:25px;
+  }
+  .description div{
+    padding: 20px;
+  }
+  
+  .btn{
+    margin-left: 25px;;
+  }
+  
+
+  .btn-shop{
+    margin:250x;
+    background-color: $mypink;
+    border-width: 20px;
+    border-radius: 20px;
+    border:none;
+    color:$mywhite;
+    font-weight: bold;
+  }
+  .btn-shop:hover{
+    background-color: $mywhite;
+    border:1px solid $mypink;
+    color:$mypink
+  }

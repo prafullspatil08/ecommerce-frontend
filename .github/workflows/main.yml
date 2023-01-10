@@ -1,0 +1,27 @@
+name: Test E-commerce
+
+on:
+  push:
+    branches: ["master"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          node-version: "14"
+
+      - name: Initial state
+        run: echo Starting web deployment
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate build
+        run: npm build
+
+      - name: Build Success
+        run: |
+          echo Build is generated successfully

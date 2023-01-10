@@ -1,0 +1,137 @@
+<section *ngIf=" product.length != 0">
+  <br><br><br><br><br>
+  <div class="card item-cart shadow-lg">
+    <div class="row">
+
+      <div class="col-md-8 cart">
+        <div class="title">
+          <div class="row">
+
+            <div class="col">
+              <h4><b>Shopping Cart</b></h4>
+            </div>
+            <div class="col align-self-center text-right text-muted">{{product.length}}</div>
+          </div>
+        </div>
+        <div *ngFor="let cartItem of product">
+          <div class="row border-top border-bottom">
+            <div class="row main align-items-center">
+              <div class="col-2"><img class="img-fluid cartItem-img" src="{{cartItem.image}}"></div>
+              <div class="col">
+                <div class="row text-muted">{{cartItem.category | uppercase}}</div>
+                <div class="row">{{cartItem.product_name}}</div>
+              </div>
+              <div class="col">
+                <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a>
+              </div>
+              <div class="col"> {{cartItem.price | currency: "INR"}}
+                <!-- <span class="close">&#10005;</span> -->
+              </div>
+              <div class="col"> <a class="text-danger" (click)="removeCartItem(cartItem)"><i
+                    class="fas fa-trash"></i></a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="back-to-shop"><a href="#" routerLink="">&leftarrow;<span class="text-muted">Back to shop</span>
+          </a></div>
+      </div>
+      <div class="col-md-4 summary">
+        <div>
+          <h5><b>Summary</b></h5>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col" style="padding-left:0;">{{ product.length}}</div>
+          <div class="col text-right">{{ totalPrice | currency: "INR" }}</div>
+        </div>
+
+        <!-- <p>SHIPPING</p>
+              <select><option class="text-muted">Standard-Delivery- &euro;5.00</option></select> --> 
+        <p class="mt-3">AVAILABLE COUPON</p>
+        <button class="btn btn btn-outline dropdown-toggle" style="border: 2px;" type="button" id="dropdownMenuButton1"
+          data-bs-toggle="dropdown" aria-expanded="false">
+        <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
+
+
+          <li>
+            <a class="dropdown-item" (click)="applyCoupon(10)">EAR00010</a>
+          </li>
+          <li>
+            <a class="dropdown-item" (click)="applyCoupon(15)">RIN00015</a>
+          </li>
+          <li>
+            <a class="dropdown-item" (click)="applyCoupon(20)">NEC00020</a>
+          </li>
+          <li>
+            <a class="dropdown-item" (click)="applyCoupon(20)">BRCRIN20</a>
+          </li>
+          <li>
+            <a class="dropdown-item" (click)="applyCoupon(25)">BRC00025</a>
+          </li>
+          <li>
+            <a class="dropdown-item" (click)="applyCoupon(25)">NECRIN25</a>
+          </li>
+          <li>
+            <a class="dropdown-item" (click)="applyCoupon(20)">EARNEC20</a>
+          </li>
+
+
+        </ul>
+      </button>
+        <span *ngIf="isCouponApplied" style="color:green;">YOU SAVED : {{discountValue}} </span>
+        <form>
+          <p>DELIVERY CHARGE(STANDARD) </p>
+          <input type="text" class="form-control text-muted" value="FREE">
+        </form>
+        <div class="row" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;" *ngIf="isCouponApplied">
+          <div class="col">TOTAL PRICE</div>
+          <div class="col text-right">{{ totalPrice | currency: "INR" }}</div>
+        </div>
+        <div class="row" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;" *ngIf="!isCouponApplied">
+          <div class="col">TOTAL PRICE</div>
+          <div class="col text-right">{{ totalPrice | currency: "INR" }}</div>
+        </div>
+        <button class="btn checkout-btn">CHECKOUT</button>
+
+      </div>
+    </div>
+  </div>
+
+
+</section>
+
+
+
+<section *ngIf="product.length === 0">
+  <br><br>
+  <div class="container-fluid  mt-100 shadow">
+    <div class="row">
+
+      <div class="col-md-12">
+
+        <div class="card emptycard">
+          <div class="card-header emptycard-header">
+            <h1 class="heading">Cart</h1>
+          </div>
+          <div class="card-body ecart">
+            <div class="col-sm-12 empty-cart-cls text-center">
+              <img
+                src="https://cdni.iconscout.com/illustration/premium/thumb/confusing-woman-due-to-empty-cart-4558760-3780056.png"
+                width="230" height="130" class="img-fluid mb-4 mr-3">
+              <h3><strong>Your Cart is Empty</strong></h3>
+              <h4>Add something to make me happy :)</h4>
+              <button class="btn btn-shop mt-3" routerLink="/home">Start Shopping</button>
+
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </div>
+</section>

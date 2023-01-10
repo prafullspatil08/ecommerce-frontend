@@ -1,0 +1,82 @@
+@import '/src/assets/color/colors.scss';
+
+
+.btn{
+    height: 3rem;
+    width:9rem;
+    border: 3px solid $logo;
+    background: transparent;
+    color: $textcolor;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+}
+.btn::after, .btn::before{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: inherit;
+    transition: 0.5s ease;
+}
+
+.btn::before{
+    left: -15px;
+    top:-15px;
+    border-width: 3px 0 0 3px;
+}
+.btn::after{
+    right: -15px;
+    bottom:-15px;
+    border-width: 0 3px 3px 0;
+}
+.btn:hover::after,
+.btn:hover::before{
+    width: calc(100% + 27px);
+    height: calc(100% + 27px);
+}
+
+
+@mixin comman-property($font-size) {
+    color : $textcolor;
+    text-transform: uppercase;
+    font-size: $font-size;
+    margin-left: 10px;
+    // font-weight: 500;
+    background-color: transparent;
+    text-decoration: none;
+}
+.header-container {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+nav {
+    color :white;
+    height: 75px;
+}
+#left-navbar a{
+    @include comman-property(15px);
+}
+#right-navbar a{
+    @include comman-property(12px);
+}
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+
+//   .wrapper{
+//       height: 106vh;
+//       display: flex;
+//     margin: 0;
+//     font-size:25px;
+//     color: pink;
+
+//   }
+
+
+

@@ -1,0 +1,267 @@
+{
+    "products":[
+    
+    {
+        "id":1,
+        "product_name":"Beautiful Oxidized Earrings with Ring",
+        "price":131,
+        "product_description":{
+            "weight":"2,500 g",
+            "height":"5.5 cm",
+            "width":"5.5 cm",
+            "textdescription":"Silver Chain Bracelet with a Butterfly Motif. Crafted in 925 Silver with a Dull Oxidised Finish. Uniquely handcrafted, no two pieces are exactly alike! 'Chase Your Butterflies' is a beautiful reminder to always go after our dreams. The origami-like designs are centered around butterflies caught in a moment of flutter, interspersed with twigs in the form of curved wires.",
+            "material_type":"Silver"
+        },
+        
+        "image":"https://images.meesho.com/images/products/7410681/d229f_512.webp",
+        "category":"earring",
+        "qty":1
+    },
+    
+    {
+        "id":2,
+        "product_name":"QUEEN BE Embellished Earrings",
+        "price":2499,
+        "product_description":{
+            "weight":"2,500 g",
+            "height":"5.5 cm",
+            "width":"5.5 cm",
+            "textdescription":"Silver Chain Bracelet with a Butterfly Motif. Crafted in 925 Silver with a Dull Oxidised Finish. Uniquely handcrafted, no two pieces are exactly alike! 'Chase Your Butterflies' is a beautiful reminder to always go after our dreams. The origami-like designs are centered around butterflies caught in a moment of flutter, interspersed with twigs in the form of curved wires.",
+            "material_type":"Silver"
+        },
+        
+        "image":"https://assets.ajio.com/medias/sys_master/root/20210817/4Z8b/611b05cc7cdb8cb824fa26a6/-473Wx593H-462802014-white-MODEL.jpg",
+        "category":"earring",
+        "qty":1
+    },
+    
+    {
+        "id":3,
+        "product_name":"SHINING DIVA Gold-Plated Crystal-Studded Drop Earrings",
+        "price":280,
+        "product_description":{
+            "weight":"2,500 g",
+            "height":"5.5 cm",
+            "width":"5.5 cm",
+            "textdescription":"Silver Chain Bracelet with a Butterfly Motif. Crafted in 925 Silver with a Dull Oxidised Finish. Uniquely handcrafted, no two pieces are exactly alike! 'Chase Your Butterflies' is a beautiful reminder to always go after our dreams. The origami-like designs are centered around butterflies caught in a moment of flutter, interspersed with twigs in the form of curved wires.",
+            "material_type":"Silver"
+        },
+        
+        "image":"https://assets.ajio.com/medias/sys_master/root/20210924/U9xx/614cf4edaeb269a268a4295b/-473Wx593H-6005608970-multi-MODEL.jpg",
+        "category":"earring",
+        "qty":1
+    },
+    {
+        "id":4,
+        "product_name":"See You Again Medium Ring (4 mm) in 925 Silver",
+        "price":500,
+        "product_description":{
+            "weight":"2,500 g",
+            "height":"5.5 cm",
+            "width":"5.5 cm",
+            "textdescription":"Silver Chain Bracelet with a Butterfly Motif. Crafted in 925 Silver with a Dull Oxidised Finish. Uniquely handcrafted, no two pieces are exactly alike! 'Chase Your Butterflies' is a beautiful reminder to always go after our dreams. The origami-like designs are centered around butterflies caught in a moment of flutter, interspersed with twigs in the form of curved wires.",
+            "material_type":"Silver"
+        },
+        
+        "image":"https://images.cltstatic.com/media/product/350/AE00855-SS0000-life-comes-full-circle-earrings-in--silver-prd-1-model.jpg",
+        "category":"earring",
+        "qty":1
+    },
+
+    {
+        "id":5,
+        "product_name":"VEMBLEY Gold Plated Pearl Multi Strand Layered Necklace",
+        "price":2400,
+        "product_description":{
+            "weight":"2,500 g",
+            "height":"5.5 cm",
+            "width":"5.5 cm",
+            "textdescription":"Silver Chain Bracelet with a Butterfly Motif. Crafted in 925 Silver with a Dull Oxidised Finish. Uniquely handcrafted, no two pieces are exactly alike! 'Chase Your Butterflies' is a beautiful reminder to always go after our dreams. The origami-like designs are centered around butterflies caught in a moment of flutter, interspersed with twigs in the form of curved wires.",
+            "material_type":"Silver"
+        },
+        
+        "image":"https://assets.ajio.com/medias/sys_master/root/20210810/IpIQ/6111cd10aeb269a2686dcb2f/-473Wx593H-462760272-gold-MODEL4.jpg",
+        "category":"necklace",
+        "qty":1
+    },
+    {
+        "id":6,
+        "product_name":"VEMBLEY Novelty Butterfly Design Pendants",
+        "price":88,
+        "product_description":{
+            "weight":"2,500 g",
+            "height":"5.5 cm",
+            "width":"5.5 cm",
+            "textdescription":"Silver Chain Bracelet with a Butterfly Motif. Crafted in 925 Silver with a Dull Oxidised Finish. Uniquely handcrafted, no two pieces are exactly alike! 'Chase Your Butterflies' is a beautiful reminder to always go after our dreams. The origami-like designs are centered around butterflies caught in a moment of flutter, interspersed with twigs in the form of curved wires.",
+            "material_type":"Silver"
+        },
+        
+        "image":"https://assets.ajio.com/medias/sys_master/root/20210403/wd2q/60689c89f997dd7b64620728/-473Wx593H-462147559-pink-MODEL2.jpg",
+        "category":"necklace",
+        "qty":1
+    },
+    {
+        "id":7,
+        "product_name":"THE PARI Wearing Heart Necklace",
+        "price":288,
+        "product_description":{
+            "weight":"2,500 g",
+            "height":"5.5 cm",
+            "width":"5.5 cm",
+            "textdescription":"Silver Chain Bracelet with a Butterfly Motif. Crafted in 925 Silver with a Dull Oxidised Finish. Uniquely handcrafted, no two pieces are exactly alike! 'Chase Your Butterflies' is a beautiful reminder to always go after our dreams. The origami-like designs are centered around butterflies caught in a moment of flutter, interspersed with twigs in the form of curved wires.",
+            "material_type":"Silver"
+        },
+        
+        "image":"https://assets.ajio.com/medias/sys_master/root/20220129/LY4b/61f438aaaeb2695cdd38bf93/-473Wx593H-469043606-multi-MODEL.jpg",
+        "category":"necklace",
+        "qty":1
+    },
+    {
+        "id":8,
+        "product_name":"SHINING DIVA Crystal-Studded Floral Pendant Long Necklace",
+        "price":260,
+        "product_description":{
+            "weight":"2,500 g",
+            "height":"5.5 cm",
+            "width":"5.5 cm",
+            "textdescription":"Silver Chain Bracelet with a Butterfly Motif. Crafted in 925 Silver with a Dull Oxidised Finish. Uniquely handcrafted, no two pieces are exactly alike! 'Chase Your Butterflies' is a beautiful reminder to always go after our dreams. The origami-like designs are centered around butterflies caught in a moment of flutter, interspersed with twigs in the form of curved wires.",
+            "material_type":"Silver"
+        },
+        
+        "image":"https://assets.ajio.com/medias/sys_master/root/20210924/rN1N/614d020ef997ddce89dd6b25/-473Wx593H-6005607450-multi-MODEL.jpg",
+        "category":"necklace",
+        "qty":1
+    },
+    {
+        "id":9,
+        "product_name":"JEWELS GALAXY Silver-Plated Hands Adjustable Ring",
+        "price":256,
+        "product_description":{
+            "weight":"2,500 g",
+            "height":"5.5 cm",
+            "width":"5.5 cm",
+            "textdescription":"Avoid contact with water & perfume.",
+            "material_type":"Silver"
+        },
+        
+        "image":"https://assets.ajio.com/medias/sys_master/root/20210826/pCj2/6126e5fb7cdb8cb82406f3df/-473Wx593H-462848713-silver-MODEL.jpg",
+        "category":"rings",
+        "qty":1
+    },
+    {
+        "id":10,
+        "product_name":"JEWELS GALAXY Ring",
+        "price":256,
+        "product_description":{
+            "weight":"2,500 g",
+            "height":"5.5 cm",
+            "width":"5.5 cm",
+            "textdescription":"Avoid contact with water & perfume.",
+            "material_type":"Silver"
+        },
+        
+        "image":"https://assets.ajio.com/medias/sys_master/root/20210403/oyoE/60685ab4f997dd7b645c874c/-473Wx593H-461004924-copper-MODEL.jpg",
+        "category":"rings",
+        "qty":1
+    },
+    {
+        "id":11,
+        "product_name":"JEWELS GALAXY Adjustable Studded Heart Ring",
+        "price":246,
+        "product_description":{
+            "weight":"2,500 g",
+            "height":"5.5 cm",
+            "width":"5.5 cm",
+            "textdescription":"Avoid contact with water & perfume.",
+            "material_type":"Silver"
+        },
+        
+        "image":"https://assets.ajio.com/medias/sys_master/root/20210403/ZJxg/60685d3eaeb269a9e330d7ca/-473Wx593H-461033973-red-MODEL.jpg",
+        "category":"rings",
+        "qty":1
+    },
+   
+    {
+        "id":12,
+        "product_name":"See You Again Medium Ring (4 mm) in 925 Silver",
+        "price":500,
+        "product_description":{
+            "weight":"2,500 g",
+            "height":"5.5 cm",
+            "width":"5.5 cm",
+            "textdescription":"Silver Chain Bracelet with a Butterfly Motif. Crafted in 925 Silver with a Dull Oxidised Finish. Uniquely handcrafted, no two pieces are exactly alike! 'Chase Your Butterflies' is a beautiful reminder to always go after our dreams. The origami-like designs are centered around butterflies caught in a moment of flutter, interspersed with twigs in the form of curved wires.",
+            "material_type":"Silver"
+        },
+        
+        "image":"https://images.cltstatic.com/media/product/350/AR00298-SS0000-see-you-again-medium-ring--mm-in--silver-prd-1-model.jpg",
+        "category":"rings",
+        "qty":1
+    },
+    {
+        "id":13,
+        "product_name":"See You Again Medium Ring (4 mm) in 925 Silver",
+        "price":500,
+        "product_description":{
+            "weight":"2,500 g",
+            "height":"5.5 cm",
+            "width":"5.5 cm",
+            "textdescription":"Silver Chain Bracelet with a Butterfly Motif. Crafted in 925 Silver with a Dull Oxidised Finish. Uniquely handcrafted, no two pieces are exactly alike! 'Chase Your Butterflies' is a beautiful reminder to always go after our dreams. The origami-like designs are centered around butterflies caught in a moment of flutter, interspersed with twigs in the form of curved wires.",
+            "material_type":"Silver"
+        },
+        
+        "image":"https://images.cltstatic.com/media/product/350/AT00156-SS0000-a-windy-walk-bracelet-in--silver-prd-1-model.jpg",
+        "category":"bracelet",
+        "qty":1
+    },
+    {
+        "id":14,
+        "product_name":"SHINING DIVA Pearl Star Trendy Stylish Charm Bracelet",
+        "price":300,
+        "product_description":{
+            "weight":"2,500 g",
+            "height":"5.5 cm",
+            "width":"5.5 cm",
+            "textdescription":"The actual color may slightly vary from the image shown due to lighting condition used during the photo shoot or your monitor's display..",
+            "material_type":"Silver"
+        },
+        
+        "image":"https://assets.ajio.com/medias/sys_master/root/20210924/lpc1/614cc8edaeb269a268a391ef/-473Wx593H-6005610220-multi-MODEL.jpg",
+        "category":"bracelet",
+        "qty":1
+    },
+    {
+        "id":15,
+        "product_name":"PRIYAASI Pack of 2 Gold-Toned Studded Bangles",
+        "price":709,
+        "product_description":{
+            "weight":"2,500 g",
+            "height":"5.5 cm",
+            "width":"5.5 cm",
+            "textdescription":"Keep wrapped in tissue paper",
+            "material_type":"Silver"
+        },
+        
+        "image":"https://assets.ajio.com/medias/sys_master/root/20200924/vc9x/5f6c95bbf997dd8c834c1153/-473Wx593H-460686769-gold-MODEL.jpg",
+        "category":"bracelet",
+        "qty":1
+    },
+    {
+        "id":16,
+        "product_name":"I JEWELS Gold-Plated Kundan Studded Haath Phool",
+        "price":400,
+        "product_description":{
+            "weight":"2,500 g",
+            "height":"5.5 cm",
+            "width":"5.5 cm",
+            "textdescription":"Product color may slightly vary due to photographic lighting sources or your monitor settings",
+            "material_type":"Silver"
+        },
+        
+        "image":"https://assets.ajio.com/medias/sys_master/root/20211026/pSGD/61771895f997ddf8f1e8f90c/-473Wx593H-6005542240-multi-MODEL.jpg",
+        "category":"bracelet",
+        "qty":1
+    }
+
+    
+]
+}

@@ -1,0 +1,26 @@
+<div class="container-fluid page-wrapper" style="padding-top: 100px;">
+    <div class="page-inner">
+      <h1 class="heading">necklace</h1>
+      <div class="row">
+        <!-- <div class=""> -->
+        <ng-container *ngFor="let product of productData">
+          <div class="card col-md-2" *ngIf="product.category === 'necklace'">
+  
+            <div class="imgBox">
+              <button style="border: none;" routerLink="/details/{{product.id}}"> 
+              <img src="{{ product.image }}" alt="mouse corsair" class="mouse"></button>
+            </div>
+          
+            <div class="contentBox">
+              <h3>{{ product.product_name }}</h3>
+              <h2 class="price">{{ product.price | currency: "INR" }}</h2>
+              <a (click)="addToCart(product)" class="buy button" style="font-size:15px;cursor:pointer">Add To Cart</a>
+              <a href="#" class="buy button mt-5">Add To Cart</a>
+            </div>
+          
+          </div>
+      </ng-container>
+      </div>
+    
+    </div>
+  </div>

@@ -1,0 +1,14 @@
+<div class="card col-lg">
+    <div class="imgBox">
+        <button style="border: none;" routerLink="/details/{{cardProduct.id}}"> 
+        <img src="{{ cardProduct.image }}" alt="earring" class="mouse"></button>
+      </div>
+      <div class="contentBox">
+        <h3>{{ cardProduct.product_name }}</h3>
+        <h2 class="price">{{ cardProduct.price | currency: "INR" }}</h2>
+        <div class="row">
+        <button href="#" (click)="addToWishList(cardProduct)" class="buy button">Like</button>
+        <button href="#" (click)="addToCart(cardProduct)"  class="buy button">Add To Cart</button>
+        </div>
+      </div>
+</div>
